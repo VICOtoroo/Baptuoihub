@@ -2241,7 +2241,7 @@ function TweenTempleLegit()
 	function getBlueGear()
 		if game.workspace.Map:FindFirstChild("MysticIsland") then
 			for r, v in pairs(game.workspace.Map.MysticIsland:GetChildren()) do
-				if v:IsA("MeshPart") and v.MeshId == "rbxassetid://16134254962" then
+				if v:IsA("MeshPart") and v.MeshId == "rbxassetid://10153114969" then
 					return v
 				end
 			end
@@ -2253,7 +2253,7 @@ function TweenTempleLegit()
 		end
 		for r, v in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
 			if v:IsA("MeshPart") then
-				if v.MeshId == "rbxassetid://16134254962" then
+				if v.MeshId == "rbxassetid://6745037796" then
 					return v
 				end
 			end
@@ -2370,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "bắp tươi hub "
+    local i = "bắp tươi hub"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "bắp tươi hub "
+        local i = "bắp tươi hub"
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2530,32 +2530,32 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>bắp tươi hub  chào ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>bắp tươi hub chào ae<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>follow tik tok tui nha mọi người <Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>chào các pro nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>chào các pro nha<Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "bắp tươi hub ", HidePremium = false, IntroText = "bắp tươi hub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "bắp tươi hub", HidePremium = false, IntroText = "bắp tươi hub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
     Name = "bắp tươi hub",
     Content = "Please Wait loading script...,Do not enable any function",
-    Image = "rbxassetid://16134254962",
+    Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "bắp tươi hub ",
+    Name = "bắp tươi hub",
     Content = "đợi hub load config rồi mới sài nha",
-    Image = "rbxassetid://16134254962",
+    Image = "rbxassetid://8192162908",
     Time = 10
 })
 
@@ -2563,85 +2563,85 @@ OrionLib:MakeNotification({
 
 local W = Window:MakeTab({
     Name = "Thông Tin Hubℹ️",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
     Name = "🌽 FARM 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
     Name = "🌽 CÀI ĐẶT 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
     Name = "🌽 Item & Quest 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
     Name = "🌽 CHỈ SỐ 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = "🌽 ĐỊNH VỊ 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = "🌽 Raid 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
-    Name = 🌽 BẢN THÂN 🌽",
-    Icon = "rbxassetid://16134254962",
+    Name = "🌽 BẢN THÂN 🌽",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = "🌽 Teleport 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = "🌽 thông tin Sever 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
     Name = "🌽 trái ắc quỷ 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = "🌽 tộc V4 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
     Name = "🌽 cửa hàng 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
     Name = "🌽 khác 🌽",
-    Icon = "rbxassetid://16134254962",
+    Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
@@ -2651,7 +2651,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("bắp tươi hub ")
+W:AddLabel("bắp tươi hub")
 
 local Section = W:AddSection({
     Name = "Update"
@@ -2659,8 +2659,8 @@ local Section = W:AddSection({
 
 
 W:AddLabel("PHÁT TRIỂN BỞI")
-W:AddLabel("bắp tươi hub SCRIPT")
-W:AddLabel("nhớ follow tik tok tui nha")
+W:AddLabel("nghĩa bắp tươi")
+W:AddLabel("follow tik tok nghĩa bắp tươi đi")
 local Section = W:AddSection({
     Name = "Status"
 })
@@ -6393,9 +6393,9 @@ SH:AddButton({
 })
 
 C:AddButton({
-    Name = "Link tik tok ",
+    Name = "Link tik tok của tôi",
     Callback = function(value)
-        setclipboard("https://www.tiktok.com/@nghiabaptuoinek?_t=8jNndbNWDRp&_r=1")
+        setclipboard("https://www.tiktok.com/@nghiabaptuoinek?_t=8jNqDU1e6q7&_r=1")
     end
 })
 
@@ -8386,15 +8386,15 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub (Noitification)",
+                    Name = "bắp tươi hub(Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub (Noitification)",
+                    Name = "bắp tươi hub(Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 9
                 })
             end
@@ -8563,7 +8563,7 @@ spawn(function()
                     OrionLib:MakeNotification({
                         Name = "bắp tươi hub BOT",
                         Content = "!!You Are Max Point!!",
-                        Image = "rbxassetid://16134254962",
+                        Image = "rbxassetid://14919714384",
                         Time = 5
                     })
                     
@@ -8710,9 +8710,9 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "bắp tươi hub ",
+                Name = "bắp tươi hub",
                 Content = "You not have beli or fragment!",
-                Image = "rbxassetid://16134254962",
+                Image = "rbxassetid://8192162908",
                 Time = 5
             })
             end
@@ -8873,7 +8873,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "bắp tươi hub BOT",
                             Content = "Not Have Superhuman",
-                            Image = "rbxassetid://16134254962",
+                            Image = "rbxassetid://14919714384",
                             Time = 5
                         })
                         
@@ -8886,7 +8886,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "bắp tươi hub BOT",
                             Content = "Not Have Death Step",
-                            Image = "rbxassetid://16134254962",
+                            Image = "rbxassetid://14919714384",
                             Time = 5
                         })
                         
@@ -8899,7 +8899,7 @@ spawn(function()
                         OrionLib:MakeNotification({
                             Name = "bắp tươi hub BOT",
                             Content = "Not Have SharkMan Karate",
-                            Image = "rbxassetid://16134254962",
+                            Image = "rbxassetid://14919714384",
                             Time = 5
                         })
                         
@@ -8912,7 +8912,7 @@ spawn(function()
                         gOrionLib:MakeNotification({
                             Name = "bắp tươi hub BOT",
                             Content = "Not Have Electric Claw",
-                            Image = "rbxassetid://16134254962",
+                            Image = "rbxassetid://14919714384",
                             Time = 5
                         })
                         
@@ -8923,7 +8923,7 @@ spawn(function()
                                 OrionLib:MakeNotification({
                                     Name = "bắp tươi hub BOT",
                                     Content = "Not Have Enough Material",
-                                    Image = "rbxassetid://16134254962",
+                                    Image = "rbxassetid://14919714384",
                                     Time = 5
                                 })
                                 
@@ -8933,9 +8933,9 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "bắp tươi hub ",
+                            Name = "bắp tươi hub BOT",
                             Content = "You Not Have Dragon Talon! ",
-                            Image = "rbxassetid://16134254962",
+                            Image = "rbxassetid://14919714384",
                             Time = 5
                         })
                         
@@ -11332,33 +11332,33 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub ",
+                    Name = "bắp tươi hub",
                     Content = "Turn Off Hop Find Moon Please",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub ",
+                    Name = "bắp tươi hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub ",
+                    Name = "bắp tươi hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 5
                 })
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "bắp tươi hub ",
+                    Name = "bắp tươi hub",
                     Content = "Hop Server",
-                    Image = "rbxassetid://16134254962",
+                    Image = "rbxassetid://8192162908",
                     Time = 5
                 })
             else
@@ -11369,9 +11369,9 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "bắp tươi hub ",
+        Name = "bắp tươi hub",
         Content = "Loading script complete!, You can now enable the function!",
-        Image = "rbxassetid://16134254962",
+        Image = "rbxassetid://8192162908",
         Time = 5
     })
 
@@ -11402,8 +11402,8 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "bắp tươi hub ",
+    Name = "bắp tươi hub",
     Content = "Loading Config Complete!!",
-    Image = "rbxassetid://16134254962",
+    Image = "rbxassetid://8192162908",
     Time = 5
 })
