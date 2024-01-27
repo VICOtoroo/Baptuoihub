@@ -2562,7 +2562,7 @@ OrionLib:MakeNotification({
 -------------Tab-----------------------
 
 local W = Window:MakeTab({
-    Name = "Thông Tin Hubℹ️",
+    Name = "🌽 Thông Tin Hub 🌽",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2592,7 +2592,7 @@ local S = Window:MakeTab({
 })
 
 local E = Window:MakeTab({
-    Name = "🌽 ĐỊNH VỊ 🌽",
+    Name = "🌽 ESP định vị 🌽",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2604,13 +2604,13 @@ local RA = Window:MakeTab({
 })
 
 local LC = Window:MakeTab({
-    Name = "🌽 BẢN THÂN 🌽",
+    Name = "🌽 Teleport 🌽",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
-    Name = "🌽 Teleport 🌽",
+    Name = "🌽 chuyển sea 🌽",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
